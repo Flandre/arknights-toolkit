@@ -1,12 +1,44 @@
 {
   "pages":[
+    "pages/chara/index",
+    "pages/recruit/index",
+    "pages/calc/index",
+    "pages/login/index",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/modal/index"
   ],
+  "tabBar": {
+    "custom": false,
+    "color": "#616161",
+    "selectedColor": "#2AA6E0",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "assets/icons/icon1.png",
+        "selectedIconPath": "assets/icons/icon1-a.png",
+        "pagePath": "pages/chara/index",
+        "text": "干员资料"
+      },
+      {
+        "iconPath": "assets/icons/icon2.png",
+        "selectedIconPath": "assets/icons/icon2-a.png",
+        "pagePath": "pages/recruit/index",
+        "text": "公招查询"
+      },
+      {
+        "iconPath": "assets/icons/icon3.png",
+        "selectedIconPath": "assets/icons/icon3-a.png",
+        "pagePath": "pages/calc/index",
+        "text": "经验计算"
+      }
+    ]
+  },
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "窝窝头，一块钱四个",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "明日方舟工具箱",
+    "navigationBarBackgroundColor": "#2AA6E0",
+    "navigationBarTextStyle":"#fff"
   }
 }

@@ -29,6 +29,11 @@ App({
               }
             }
           })
+        } else {
+          console.log('==== 没有授权，跳转到授权页面 ====')
+          qq.redirectTo({
+            url: '/pages/login/index'
+          })
         }
       }
     })
