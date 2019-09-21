@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
-const http = require('../../public/http');
+const http = require('../../public/http')
 
 Page({
   data: {

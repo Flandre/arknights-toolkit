@@ -174,6 +174,20 @@
 
     <view class="info-panel">
       <view class="title">攻击范围</view>
+      <view class="range-container">
+        <view
+          class="range-row"
+          qq:for="{{rangeArr}}"
+          qq:for-index="ridx"
+          qq:for-item="row"
+        >
+          <view
+            class="range-item item-{{type}}"
+            qq:for="{{row}}"
+            qq:for-item="type"
+          ></view>
+        </view>
+      </view>
 
     </view>
   </view>

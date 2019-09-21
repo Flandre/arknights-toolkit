@@ -100,3 +100,29 @@
 	margin-left: 0;
 	margin-right: 0;
 }
+
+.range-container .range-row{
+	overflow: hidden;
+	margin-bottom: 10rpx;
+}
+.range-container .range-row .range-item{
+	display: block;
+	width: 30rpx;
+	height: 30rpx;
+	border: 6rpx solid transparent;
+	float: left;
+	margin-left: 10rpx;
+}
+.range-container .range-row .range-item.item-1{
+	border-color: #fff;
+	background: #fff;
+}
+.range-container .range-row .range-item.item-2{
+	border-color: #fff;
+}
+.range-container .range-row .range-item.item-3{
+	border-color: #22bbff;
+}
+.range-container .range-row .range-item.item-4{
+	border-color: #fd6137;
+}
