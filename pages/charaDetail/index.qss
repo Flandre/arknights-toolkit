@@ -1,0 +1,102 @@
+.bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+.chara-container {
+	background: rgba(66,66,66,.3);
+	width: 710rpx;
+	padding: 20rpx;
+	overflow: hidden;
+	min-height: 100%;
+	color: #fff;
+}
+.chara-container .info-panel {
+	padding: 20rpx 30rpx;
+	background: rgba(0,0,0,.5);
+	width: 650rpx;
+	margin-bottom: 20rpx;
+}
+.chara-container .info-panel .title {
+	background: rgba(0,0,0,.5);
+	font-size: 36rpx;
+	line-height: 1;
+	padding: 20rpx;
+	margin-bottom: 15rpx;
+	border: 1rpx solid #ddd;
+	border-radius: 10rpx;
+	overflow: hidden;
+}
+.chara-container .chara-info {
+	width: 650rpx;
+	height: 180rpx;
+	border: 4rpx solid #fff;
+	display: flex;
+}
+.chara-container .chara-info .avatar{
+	width: 180rpx;
+	height: 180rpx;
+	border-right: 4rpx solid #fff;
+	flex-shrink: 0;
+}
+.chara-container .chara-info .info{
+	padding-left: 30rpx;
+	padding-top: 35rpx;
+}
+.chara-container .chara-info .info .name{
+	font-size: 64rpx;
+	line-height: 70rpx;
+}
+.chara-container .chara-info .info .appellation{
+	font-size: 40rpx;
+	line-height: 60rpx;
+}
+.chara-container .info-container{
+	border: 4rpx solid #fff;
+}
+.chara-container .info-container .info-row{
+	border-bottom: 4rpx solid #fff;
+	display: flex;
+}
+.chara-container .info-container .info-row:last-child{
+	border-bottom: 0;
+}
+.chara-container .info-container .info-row .info-name{
+	width: 100rpx;
+	border-right: 4rpx solid #fff;
+	padding: 30rpx;
+	background: rgba(0,0,0,.5);
+}
+.chara-container .info-container .info-row .info-desc{
+	padding: 30rpx;
+	overflow: hidden;
+}
+.chara-container .info-container .info-row .info-desc > view{
+	float: left;
+}
+.chara-container .info-container .info-row .info-desc > view:after{
+	content: '→';
+	margin-left: 10rpx;
+	margin-right: 10rpx;
+}
+.chara-container .info-container .info-row .info-desc > view:last-child:after{
+	content: '';
+	margin-left: 0;
+	margin-right: 0;
+}
+.chara-container .info-container .info-row .info-desc > view > view{
+	float: left;
+}
+.chara-container .info-container .info-row .info-desc > view > view:after{
+	content: '→';
+	margin-left: 10rpx;
+	margin-right: 10rpx;
+}
+.chara-container .info-container .info-row .info-desc > view > view:last-child:after{
+	content: '';
+	margin-left: 0;
+	margin-right: 0;
+}

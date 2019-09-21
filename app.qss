@@ -1,3 +1,6 @@
+Page {
+  min-height: 100%;
+}
 .container {
   height: 100%;
   display: flex;
@@ -6,4 +9,7 @@
   justify-content: space-between;
   padding: 0;
   box-sizing: border-box;
+  font-size: 30rpx;
+  color: #333;
+  min-height: 100%;
 }
