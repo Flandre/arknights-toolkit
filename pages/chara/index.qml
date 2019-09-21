@@ -55,11 +55,11 @@
     </view>
     <view
       qq:for="{{ charaData }}"
-      data-index="{{ index }}"
+      data-index="{{ item.charaIndex }}"
       bindtap="tapChara"
       class="chara-item"
     >
-      <image src="http://flandrescarlet.gitee.io/ark/assets/chara/{{item.encodeName}}.png" class="avatar"></image>
+      <image src="http://flandrescarlet.gitee.io/ark/assets/chara/{{item.fixName}}.png" class="avatar"></image>
       <view class="name">{{item.name}}</view>
     </view>
   </view>

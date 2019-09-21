@@ -38,9 +38,13 @@ Page({
       http.get('/data/character_table.json')
         .then(res => {
           let data = []
-          Object.values(res).map(c => {
+          Object.values(res).map((c, i) => {
             if(c.potentialItemId || c.name == '暴行') {
-              data.push(Object.assign({encodeName: encodeURI(c.appellation)}, c))
+              data.push(Object.assign({
+                charaIndex: i,
+                fixName: c.appellation.replace(/'/g, ''),
+                encodeName: encodeURI(c.appellation)
+              }, c))
             }
           })
           app.globalData.charaData = data

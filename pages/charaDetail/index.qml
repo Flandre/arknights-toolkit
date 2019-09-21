@@ -4,7 +4,7 @@
 
     <view class="info-panel">
       <view class="chara-info">
-        <image src="http://flandrescarlet.gitee.io/ark/assets/chara/{{charaInfo.encodeName}}.png" class="avatar"></image>
+        <image src="http://flandrescarlet.gitee.io/ark/assets/chara/{{charaInfo.fixName}}.png" class="avatar"></image>
         <view class="info">
           <view class="name">{{charaInfo.name}}</view>
           <view class="appellation">{{charaInfo.appellation}}</view>
