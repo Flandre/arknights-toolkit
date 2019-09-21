@@ -25,7 +25,7 @@ Page({
         })
         console.log('==== 授权成功 1 ====')
         qq.switchTab({
-          url: '/pages/index/index'
+          url: '/pages/chara/index'
         })
       }
     } else {
@@ -39,7 +39,7 @@ Page({
           })
           console.log('==== 授权成功 2 ====')
           qq.switchTab({
-            url: '/pages/index/index'
+            url: '/pages/chara/index'
           })
         }
       })
@@ -54,7 +54,7 @@ Page({
     })
     console.log('==== 授权成功 3 ====')
     qq.switchTab({
-      url: '/pages/index/index',
+      url: '/pages/chara/index',
       success() {
         console.log('调用成功')
       },

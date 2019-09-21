@@ -1,5 +1,6 @@
 <view class="">
   <image src="../../assets/bg.jpg" mode="aspectFill" class="bg"></image>
+  <view class="chara-filter"></view>
   <view class="chara-container">
     <view
       qq:for="{{ charaData }}"
