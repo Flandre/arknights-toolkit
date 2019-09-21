@@ -37,14 +37,15 @@ Page({
     } else {
       http.get('/data/character_table.json')
         .then(res => {
-          let data = []
+          let data = [], index = 0
           Object.values(res).map((c, i) => {
             if(c.potentialItemId || c.name == '暴行') {
               data.push(Object.assign({
-                charaIndex: i,
+                charaIndex: index,
                 fixName: c.appellation.replace(/'/g, ''),
                 encodeName: encodeURI(c.appellation)
               }, c))
+              index ++
             }
           })
           app.globalData.charaData = data

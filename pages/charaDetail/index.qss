@@ -67,11 +67,11 @@
 .chara-container .info-container .info-row .info-name{
 	width: 100rpx;
 	border-right: 4rpx solid #fff;
-	padding: 30rpx;
+	padding: 15rpx 30rpx;
 	background: rgba(0,0,0,.5);
 }
 .chara-container .info-container .info-row .info-desc{
-	padding: 30rpx;
+	padding: 15rpx 30rpx;
 	overflow: hidden;
 }
 .chara-container .info-container .info-row .info-desc > view{
@@ -103,15 +103,16 @@
 
 .range-container .range-row{
 	overflow: hidden;
-	margin-bottom: 10rpx;
+	width: 360rpx;
+	margin: 0 auto 8rpx;
 }
 .range-container .range-row .range-item{
 	display: block;
-	width: 30rpx;
-	height: 30rpx;
+	width: 20rpx;
+	height: 20rpx;
 	border: 6rpx solid transparent;
 	float: left;
-	margin-left: 10rpx;
+	margin-left: 8rpx;
 }
 .range-container .range-row .range-item.item-1{
 	border-color: #fff;

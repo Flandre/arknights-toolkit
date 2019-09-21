@@ -11,22 +11,9 @@ Page({
   },
   //事件处理函数
   bindViewTap: function () {
-    qq.request({
-      url: 'https://flandrescarlet.gitee.io/ark/data/character_table.json', // 仅为示例，并非真实的接口地址
-      data: {
-        x: '',
-        y: ''
-      },
-      header: {
-        'content-type': 'application/json' // 默认值
-      },
-      success(res) {
-        console.log(res.data)
-      }
+    qq.navigateTo({
+      url: '../logs/logs'
     })
-    // qq.navigateTo({
-    //   url: '../logs/logs'
-    // })
   },
   onLoad: function () {
     if (app.globalData.userInfo) {
