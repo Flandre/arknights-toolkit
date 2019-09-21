@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/chara/index",
+    "pages/charaDetail/index",
     "pages/recruit/index",
     "pages/calc/index",
     "pages/login/index",
