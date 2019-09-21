@@ -1,5 +1,5 @@
 import Fetch from '../com/ajax'
-const global = require('../public/global')
+const global = require('./global')
 
 const baseUrl = 'https://flandrescarlet.gitee.io/ark'
 const header = { Accept: 'application/json' }
