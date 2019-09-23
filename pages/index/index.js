@@ -16,6 +16,9 @@ Page({
     })
   },
   onLoad: function () {
+    qq.showShareMenu({
+      showShareItems: ['qq', 'qzone']
+    })
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,

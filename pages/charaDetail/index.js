@@ -7,6 +7,9 @@ Page({
     rangeArr: null,
   },
   onLoad(options) {
+    qq.showShareMenu({
+      showShareItems: ['qq', 'qzone']
+    })
     let { i } = options
     this.getCharaInfo(i)
   },

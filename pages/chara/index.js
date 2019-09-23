@@ -26,6 +26,9 @@ Page({
     }
   },
   onLoad: function () {
+    qq.showShareMenu({
+      showShareItems: ['qq', 'qzone']
+    })
     this.initData()
   },
   initData() {
